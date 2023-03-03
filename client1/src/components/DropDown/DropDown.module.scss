@@ -1,0 +1,17 @@
+.wrapper {
+    width: 100%;
+}
+
+.item {
+    width: calc(100% / 4);
+    max-height: 100px;
+    margin-right: 10px;
+}
+
+.select {
+    width: 100% !important;
+    
+    div {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,36 @@
+.wrapper {
+    padding: 8px 0px;
+}
+.item {
+    padding: 8px 0px;
+    color: #333333;
+    font-size: 14px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.item::before {
+    position: absolute;
+    content: ' ';
+    width: 0;
+    height: 1.5px;
+    bottom: 0;
+    background-color: #cb0200;
+    transition: all 0.3s ease;
+}
+
+.item:hover {
+    color: #cb0200;
+}
+
+.item:hover::before {
+    width: 100%;
+}
+
+.active {
+    color: #cb0200;
+}
+
+.active::before{
+    width: 100%;
+}

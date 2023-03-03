@@ -1,0 +1,27 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.left {
+    width: calc(100% / 3);
+}
+
+.image {
+    width: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.image:hover {
+    transform: scale(1.03);
+}
+
+.center {
+    width: calc(100% / 3);
+    margin: 0 10px;
+}
+
+.right {
+    width: calc(100% / 3);
+}

@@ -1,0 +1,37 @@
+.wrapper {
+    width: 100%;
+}
+
+.wrapper > ul {
+    bottom: 14px;
+}
+
+.item {
+
+}
+
+.image {
+    width: inherit;
+    object-fit: contain;
+    user-select: none;
+}
+
+//page about
+.slideAbout {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+//page products
+.slideProduct {
+    width: 100%;
+    height: 229px;
+    object-fit: cover;
+}
+
+.slideWrapper {
+    button {
+        display: none !important;
+    }
+}

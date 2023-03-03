@@ -1,0 +1,55 @@
+.wrapper {
+    width: 1140px;
+    margin: 20px auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.link {
+    position: relative;
+    color: red;
+}
+
+.link::before {
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 1.5px;
+    background-color: red;
+    bottom: 0;
+    transition: all 0.3s ease;
+}
+
+.link:hover::before {
+    width: 100%;
+}
+
+.slider {
+
+    margin: 20px 0px;
+
+    button::before {
+        color: black;
+        opacity: .7;
+    }
+
+    button:first-child::before {
+        font-family: "Font Awesome 5 Free"; 
+        font-weight: 900; 
+        content: "\f104";
+    }
+
+    button:nth-child(3)::before {
+        font-family: "Font Awesome 5 Free"; 
+        font-weight: 900; 
+        content: "\f105";
+    }
+}

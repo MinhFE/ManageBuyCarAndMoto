@@ -1,0 +1,80 @@
+.footer {
+    width: 100%;
+    background-image: url('http://tienthu.vn/frontend/images/footer-bg.jpg');
+    background-size: 100% 100%;
+    color: white;
+    // margin-top: -5px;
+}
+
+.wrapper {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+    p {
+        margin-bottom: 15px;
+    }
+
+    .icon-link {
+        display: inline;
+    }
+    
+    a {
+        display: block;
+        margin-bottom: 15px;
+        color: white;
+        text-decoration: none;
+        transition: all 0.2s linear;
+    }
+
+    a:hover {
+        color: red;
+    }
+}
+
+.icon {
+    font-size: 20px;
+    margin-right: 10px;
+    transition: all 0.2s linear;
+}
+
+.icon:hover {
+    color: red;
+    background-color: white;
+}
+
+.info {
+    img {
+        width: 180px;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+}
+
+.store-moto {
+    display: flex;
+    flex-direction: column;
+
+    a {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.title {
+    color: red;
+    margin-bottom: 40px;
+}
+
+.store-oto {
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright {
+    padding: 30px 0px 40px 55px;
+    color: #fff;
+    opacity: 0.7;
+    font-size: 12px;
+}

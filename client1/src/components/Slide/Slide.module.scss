@@ -1,0 +1,84 @@
+.wrapper {
+    
+}
+
+.slide {
+    height: 720px;
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
+
+.item {
+    position: absolute;
+    color: white;
+    top: 35%;
+    right: 15%;
+    text-align: center;
+    z-index: 99;
+    margin: 0 auto;
+    visibility: visible;
+    animation-duration: 0.5s;
+    animation: faceUp 1.5s ease-in-out;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+@keyframes faceUp {
+    from {
+        opacity: 0;
+        transform: translateY(-100px)
+    } to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.name {
+    font-size: 60px;
+}
+
+.btn-discover {
+    width: 150px;
+    height: 42px;
+    margin-left: 30px;
+    position: relative;
+    display: block;
+    background-color: red;
+    line-height: 42px;
+}
+
+.btn-discover::after {
+    position: absolute;
+    content: '';
+    width: 42px;
+    height: 42px;
+    top: -42px;
+    left: -30px;
+    border-left: 28px solid transparent;
+    border-bottom: 42px solid red;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    z-index: -1;
+}
+
+.btn-discover::before {
+    position: absolute;
+    content: '';
+    width: 42px;
+    height: 42px;
+    top: 0px;
+    right: -30px;
+    border-right: 28px solid transparent;
+    border-top: 42px solid red;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    z-index: -1;
+}

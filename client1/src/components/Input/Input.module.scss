@@ -1,0 +1,26 @@
+.wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.input {
+    width: 100%;
+    text-transform: capitalize;
+    padding: 8px 0;
+    border: unset;
+    border-bottom: 1px solid #dcdcdc;
+    margin-bottom: 20px;
+    color: #333;
+
+    &:focus {
+        outline: none;
+        border-color: #ca0200;
+    }
+}
+
+.icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}

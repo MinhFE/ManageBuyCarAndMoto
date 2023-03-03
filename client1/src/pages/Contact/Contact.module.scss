@@ -1,0 +1,86 @@
+.wrapper {
+    width: 1140px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner {
+    width: 50%;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.description {
+    margin-bottom: 10px;
+}
+
+.info {
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    width: 48%;
+    padding: 8px;
+    border: unset;
+    border-bottom: 1px solid #dcdcdc;
+    font-size: 14px;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #ca0200;
+}
+
+.input-email {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.dropdown {
+    width: 100% !important;
+    margin-bottom: 15px;
+}
+
+.input-area {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 15px;
+    resize: none;
+}
+
+.description {
+    color: #909295;
+}
+
+.btn-submit {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ca0200;
+    border: 1px solid #ca0200;
+    color: #fff;
+    border-radius: 4px;
+
+    &:hover {
+        background-color: #ffffff;
+        color: #ca0200;
+    }
+}

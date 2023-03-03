@@ -1,0 +1,76 @@
+.wrapper {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 25%;
+    height: inherit;
+    background-image: url(http://tienthu.vn/frontend/images/menu-bg-1.svg);
+    background-size: cover;
+}
+
+.oto {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.image-oto {
+    width: 63px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.name-oto {
+    margin-left: 20px;
+    color: white;
+}
+
+.center {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    width: inherit;
+    height: inherit;
+}
+
+.image-logo {
+    width: 140px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.right {
+    width: 25%;
+    height: inherit;
+    background-image: url(http://tienthu.vn/frontend/images/menu-bg-2.svg);
+    background-size: cover;
+}
+
+.moto {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.name-moto {
+    margin-right: 20px;
+    color: white;
+}
+
+.image-moto {
+    width: 35px;
+    height: 25px;
+    object-fit: cover;
+}
+
+//active

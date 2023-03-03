@@ -1,0 +1,26 @@
+.wrapper {
+    width: 1140px;
+    margin: 80px auto;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-around;
+}
+
+.item {
+    margin-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.item:first-child, .item:nth-child(3), .item:nth-child(5) {
+    margin-top: -60px;
+}
+
+.image {
+
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 20px;
+}

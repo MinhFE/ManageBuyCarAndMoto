@@ -1,0 +1,43 @@
+.wrapper {
+    width: calc(100% / 4 - 10px);
+    margin: 5px;
+    border: 1px solid #D7D7D7;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.wrapper:hover {
+    box-shadow: 5px 5px 15px #D7D7D7;
+}
+
+.wrapper:hover .image {
+    transform: scale(1.03)
+}
+
+.image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.title {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.date {
+    padding: 0 0 10px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 5px;
+    color: #cb0200;
+}
+
+.location {
+    padding: 0 0 10px 5px;
+    display: flex;
+    align-items: center;
+}
+

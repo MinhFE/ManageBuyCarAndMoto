@@ -1,0 +1,268 @@
+.wrapper {
+    width: 1140px;
+    margin: 50px auto;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.contain {
+    display: flex;
+}
+
+.info {
+    width: 70%;
+}
+
+.info_user {
+    .title {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .description {
+        margin-bottom: 20px;
+
+        a {
+            color: #cb0200;
+            text-decoration: underline;
+        }
+    }
+
+    .user {
+        display: flex;
+        justify-content: space-between;
+        input {
+            width: 100%;
+        }
+
+        div:first-child {
+            margin-right: 20px;
+        }
+    }
+
+    .address {
+        justify-content: space-between;
+    }
+
+    .message {
+        p {
+            margin: 15px 0 10px 0;
+            color: #909295;
+        }
+
+        textarea {
+            display: block;
+            width: 100%;
+            min-height: calc(1.5em + 0.75rem + 2px);
+            padding: 0.375rem 0.75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border-radius: 0.25rem;
+            resize: vertical;
+
+            &:focus {
+                outline: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-color: #ca0200;
+                color: #495057;
+                background-color: #fff;
+            }
+        }
+    }
+
+    //2
+    .cccd_date {
+        margin: 20px 0;
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+
+        input {
+            margin-bottom: 0;
+        }
+
+        div {
+            width: calc(100% / 3);
+        }
+
+        // div:nth-child(2) {
+        //     width: 99%;
+        // }
+    }
+}
+
+.pay_delivery {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    label {
+        margin-left: 5px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    input {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+.payments {
+
+}
+
+.title {
+
+}
+
+.COD {
+    margin: 20px 0;
+}
+
+.vnpay {
+
+}
+
+
+.image {
+    width: 100px;
+    object-fit: cover;
+}
+
+.promotion {
+    margin-top: 20px;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .promotion-title {
+    }
+
+    .promotion-input {
+        height: inherit;
+        margin: 0 20px;
+        padding-left: 10px;
+        flex-grow: 1;
+        border: unset;
+        border-bottom: 1px solid #e1e1e1;
+        font-size: 16px;
+    }
+
+    .promotion-done {
+        height: inherit;
+        padding: 0 20px;
+        color: #fff;
+        background-color: #cb0200;
+        border: 1px solid #cb0200;
+        border-radius: 4px;
+        cursor: pointer;
+
+        &:hover {
+            color: #cb0200;
+            background-color: #fff;
+        }
+    }
+}
+
+.order {
+    flex-grow: 1;
+    margin-left: 10px;
+    padding: 30px 20px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .order-row {
+        padding: 15px 0;
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #e1e1e1;
+        border-bottom: 1px solid #e1e1e1;
+        align-items: center;
+
+        .number-sum {
+            color: #cb0200;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+
+    .price {
+        font-weight: bold;
+    }
+
+    button {
+        margin-top: 20px;
+        color: #fff;
+        background-color: #cb0200;
+        cursor: pointer;
+        border: 1px solid #cb0200;
+        border-radius: 4px;
+
+        &:hover {
+            color: #cb0200;
+            background-color: #fff;
+        }
+    }
+
+    .info_car {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.pay {
+    width: 30%;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.buy {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 5px 0;
+    display: block;
+    text-align: center;
+    color: #fff;
+    background-color: #cb0200;
+    cursor: pointer;
+    border: 1px solid #cb0200;
+    border-radius: 4px;
+
+    &:hover {
+        color: #cb0200;
+        background-color: #fff;
+    }
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+
+    &:first-child {
+        margin-right: 10px !important;
+    }
+}
